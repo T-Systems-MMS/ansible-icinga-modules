@@ -6,6 +6,7 @@
         name: "icinga"
         tasks_from: "{{ item }}"
       loop:
+        - absent_icinga_host.yml
         - absent_icinga_host_template.yml
         - absent_icinga_hostgroup.yml
         - absent_icinga_service_apply.yml
@@ -41,6 +42,7 @@
         - icinga_host.yml
         - icinga_service.yml
 
+        - absent_icinga_host.yml
         - absent_icinga_host_template.yml
         - absent_icinga_hostgroup.yml
         - absent_icinga_service_apply.yml
