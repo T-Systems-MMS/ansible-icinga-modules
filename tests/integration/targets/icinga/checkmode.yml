@@ -42,6 +42,24 @@
         - icinga_host.yml
         - icinga_service.yml
 
+        - icinga_zone.yml
+        - icinga_endpoint.yml
+        - icinga_command_template.yml
+        - icinga_command.yml
+        - icinga_timeperiod.yml
+        - icinga_user_template.yml
+        - icinga_user.yml
+        - icinga_notification_template.yml
+        - icinga_notification.yml
+        - icinga_hostgroup.yml
+        - icinga_servicegroup.yml
+        - icinga_service_template.yml
+        - icinga_service_apply.yml
+        - icinga_hostgroup.yml
+        - icinga_host_template.yml
+        - icinga_host.yml
+        - icinga_service.yml
+
         - absent_icinga_host.yml
         - absent_icinga_host_template.yml
         - absent_icinga_hostgroup.yml
